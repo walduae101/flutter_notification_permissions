@@ -23,10 +23,11 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 29
+    namespace "com.walduae101.notificationpermissions"
 
     defaultConfig {
         minSdkVersion 16
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        targetSdkVersion 29
     }
     lintOptions {
         disable 'InvalidPackage'
